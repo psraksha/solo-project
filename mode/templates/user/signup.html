@@ -1,0 +1,51 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="{% static '/css/landing.css' %}" rel="stylesheet">
+  <title>User Signup</title>
+</head>
+<body class="signup-body">
+  <img src="{% static '/images/runway.jpeg' %}">
+  <form class="signup-form">
+    <div class="signup-element">
+      <label for="fname">First Name</label>
+      <input type="text" id="fname"><br>
+    </div>
+    <div class="signup-element">
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname"><br>
+    </div>
+    <div class="signup-element">
+      <label for="pno">Phone Number</label>
+      <input type="tel" id="pno"><br>
+    </div>
+    
+    <div class="signup-element">
+      <label for="mail">Email-ID</label>
+      <input type="email" id="mail"><br>
+    </div>
+    <label>Gender</label>
+    <div class="signup-element">
+      <input type="radio" name="gender" id="male">
+      <label>Male</label>
+      <input type="radio" name="gender" id="female">
+      <label>Female</label>
+    </div>
+    <div class="signup-element">
+      <label id="creatpw">Create Password</label>
+      <input type="password" id="creatpw"><br>
+    </div>
+    
+    <div class="signup-element">
+      <label id="confirmpw">Confirm Password</label>
+      <input type="password" id="confirmpw"><br>
+    </div>
+    <button type="submit"><a href="login.html">Submit</a></button>
+  </form>
+  
+  
+</body>
+</html>

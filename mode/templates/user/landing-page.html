@@ -1,0 +1,161 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="{% static '/css/landing.css' %}" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>MODE</title>
+</head>
+<body>
+    
+    <header>
+        <p class="udemy">MODE</p>
+        <div class="header-container">
+            <button class="header-btn">Subscribe</button>
+            <a href="signup.html">
+                <button class="header-btn">Login</button>
+            </a>
+            
+        </div>
+    </header>
+    <div class="nav">
+        <button>Fashion</button>
+        <button>Beauty</button>
+        <button>Runway</button>
+        <button>Living</button>
+        <button>Shopping<span class="material-symbols-outlined check">
+            keyboard_arrow_down
+            </span></button>
+    </div>
+
+    <div class="website-start">
+        
+        <img src="{% static '/images/runway-two.jpeg' %}">
+
+    </div>
+    <div>
+        <h1>Read Now</h1>
+        <hr>
+        <div class="articles">
+            <button class="article-big">
+                <img src="{% static '/images/pc.avif' %}">
+                <p class="title">25 years into her career, Priyanka Chopra Jonas still believes in the power of routines</p>
+                <p class="author">By Sarah</p>
+                <p class="date">20 August 2024</p>
+            </button>
+            <div class="articles-below">
+                <button class="article-one">
+                    <img src="{% static '/images/vf.webp' %}">
+                    <p class="title">All of the Celebrity Fashions at the 2024 Venice Film Festival</p>
+                    <p class="author">By Riya</p>
+                    <p class="date">15 August 2024</p>
+                </button>
+
+                <button class="article-down">
+                    <img src="{% static '/images/oasis.webp' %}">
+                    <p class="title">The Oasis reunion is like Charli XCX and Lorde working it out on the remix—but for men</p>
+                    <p class="author">By Lana Clarke</p>
+                    <p class="date">18 August 2024</p>
+                </button>
+                <button class="article-up">
+                    <img src="{% static '/images/headachegirl.jpg' %}">
+                    <p class="title">Have a persistent headache? You could be sleeping too much</p>
+                    <p class="author">By Amy</p>
+                    <p class="date">18 August 2024</p>
+                </button>
+            </div>
+
+
+
+        </div>
+
+    </div>
+
+    <div>
+        <h1>Fashion</h1>
+        <hr>
+        <div class="fashion-articles">
+            <button class="fashion-article-one">
+                <img src="{% static '/images/ldr.webp' %}">
+                <p class="title">'It Had to Be Tweed': Lana Del Rey Embraced Classic French Style for Her Latest Paris Performance</p>
+                <p class="author">By Christian</p>
+                <p class="date">22 August 2024</p>
+            </button>
+
+            <button class="fashion-article-one">
+                <img src="{% static '/images/kajol.webp' %}">
+                <p class="title">Kajol's gold brocade sari by Shivan & Narresh comes with concealed pockets</p>
+                <p class="author">By Rani</p>
+                <p class="date">22 August 2024</p>
+            </button>
+            <button class="fashion-article-one">
+                <img src="{% static '/images/blouse.jpg' %}">
+                <p class="title">Six 90s blouses to wear with skirts and pants to the office in 2024</p>
+                <p class="author">By Joseph</p>
+                <p class="date">22 August 2024</p>
+            </button>
+
+        </div>
+    </div>
+
+    <div>
+        <h1>Culture and Living</h1>
+        <hr>
+        <div class="culture-articles">
+            <button class="fashion-article-one">
+                <img src="{% static '/images/doggo.webp' %}">
+                <p class="title">A golden retriever from India just became the first female canine to climb the world's highest motorable pass</p>
+                <p class="author">By Sakshi Tiwari</p>
+                <p class="date">25 August 2024</p>
+            </button>
+
+            <button class="fashion-article-two">
+                <img src="{% static '/images/xoxo.jpeg' %}">
+                <p class="title">Ed Westwick and Amy Jackson's wedding was held on the Amalfi Coast at Castello Di Rocca</p>
+                <p class="author">By Daisy</p>
+                <p class="date">25 August 2024</p>
+            </button>
+            <button class="fashion-article-one">
+                <img src="{% static '/images/gossip.avif' %}">
+                <p class="title">My favourite podcast of all time? Eavesdropping</p>
+                <p class="author">By Selena</p>
+                <p class="date">22 August 2024</p>
+            </button>
+
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <ul>
+                <li>Business</li>
+                <li>Newsletter</li>
+                <li>Customer Care</li>
+                <li>Careers</li>
+                <li>Projects</li>
+            </ul>
+            <ul>
+                <li>Fashion</li>
+                <li>Beauty</li>
+                <li>Living</li>
+                <li>Runway</li>
+                <li>Shopping</li>
+            </ul>
+            
+            <div class="social">
+                <p>Don't forget to follow us!</p>
+                <div>
+                    <button><img src="{% static '/images/instagram.png' %}"></button>
+                    <button><img src="{% static '/images/fb.png' %}"></button>
+        
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    
+    
+</body>
+</html>
